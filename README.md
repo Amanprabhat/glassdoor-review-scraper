@@ -1,15 +1,5 @@
-﻿testing:
-python main.py --headless --url "https://www.glassdoor.com/Overview/Working-at-Honey-Can-Do-EI_IE1035988.11,23.htm" --limit 2 -f atest_reviews.csv
+Note: The original code has been written by MatthewChatham. You can find the original code https://github.com/MatthewChatham/glassdoor-review-scraper
 
-spencer stuart:
-python main.py --headless --url "https://www.glassdoor.com/Reviews/Spencer-Stuart-Reviews-E5778.htm" --limit 250 -f spencer_stuart_reviews.csv
-python main.py --headless --url "https://www.glassdoor.com/Overview/Working-at-Allianz-EI_IE3062.11,18.htm" --limit 1800 -f allianz_reviews.csv
-python main.py --headless --url "https://www.glassdoor.com/Overview/Working-at-METRO-EI_IE6527.11,16.htm" --limit 200 -f metro_reviews.csv
-
-https://github.com/MatthewChatham/glassdoor-review-scraper
-
-# Citation
-I'd love to see how folks use this scraper! Please cite this repository in your publication and drop me a message. 😊
 
 # Introduction
 Have you ever wanted to scrape reviews from Glassdoor, but bemoaned the site's lack of a public API for reviews? Worry no more! This script will go through pages and pages of reviews and scrape review data into a tidy CSV file. Pass it a company page and set a limit to scrape the 25 most conveniently available reviews, or control options like the number of reviews to scrape and the max/min review publication date.
@@ -18,9 +8,8 @@ It takes about 1.5 seconds per review to scrape. So it will take about 25 minute
 
 # Installation
 1. Clone or download this repository.
-2. Run `pip install -r requirements.txt` inside this repo. Consider doing this inside of a Python virtual environment.
-3. Install [Chromedriver](http://chromedriver.chromium.org/) in the working directory.
-4. Create a `secret.json` file containing the keys `username` and `password` with your Glassdoor login information, or pass those arguments at the command line. Note that the second method is less secure, but in any case you should consider creating a dummy Glassdoor account.
+2. Install [Chromedriver](http://chromedriver.chromium.org/) in the working directory.
+3. Create a `secret.json` file containing the keys `username` and `password` with your Glassdoor login information, or pass those arguments at the command line. Note that the second method is less secure, but in any case you should consider creating a dummy Glassdoor account.
 
 # Usage
 ```
