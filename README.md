@@ -1,4 +1,4 @@
-Note: The original code has been written by MatthewChatham. You can find the original code https://github.com/MatthewChatham/glassdoor-review-scraper
+<h3><u>Note</u></h3>: The original code has been written by MatthewChatham. You can find the original code here :- https://github.com/MatthewChatham/glassdoor-review-scraper
 
 
 # Introduction
