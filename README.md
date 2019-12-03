@@ -1,2 +1,2 @@
-<b>Introduction</b>
+<h1>Introduction</h1>
 
